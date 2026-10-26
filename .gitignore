@@ -1,0 +1,42 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Build / PyInstaller
+build/
+dist/
+*.spec
+
+# Local runtime files
+*.log
+.runtime/
+logs/
+config.json
+config.local.*
+secrets.json
+credentials.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Windows / editors
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.vs/
+.idea/
+.vscode/
+*~

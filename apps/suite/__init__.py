@@ -1,0 +1,1 @@
+"""NhanTools Suite application."""

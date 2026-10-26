@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nhantools"
+version = "0.1.0"
+description = "Windows utility suite with shared standalone tools"
+requires-python = ">=3.11"
+dependencies = ["PySide6>=6.6,<7"]
+
+[project.scripts]
+nhantools = "apps.suite.__main__:main"
+nhantools-demo = "apps.standalone.demo:main"
+
+[tool.setuptools.packages.find]
+include = ["apps*", "core*", "modules*", "shared_ui*"]
